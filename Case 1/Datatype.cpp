@@ -20,6 +20,11 @@ int main(int argc,char * argv[])
 	int iNumber;
 //Reading number of arguments argc
 	cout<<"no of arguments "<<argc<<endl;
+	if(argc==2)
+	{
+	    cout<<"Usage:"<<endl;
+        cout<<"argv[0],datatype1,datatype2,datatype3.........datatype N"<<endl;
+	}
 	//Displaying the type and size of arguments	
     cout<<"type"<<"\t"<<"value"<<"\t"<<"size"<<endl;
 	for(iNumber=1;iNumber<argc;iNumber++)
